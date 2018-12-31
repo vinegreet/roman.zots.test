@@ -1,0 +1,21 @@
+{
+  "name": "roman.zots.test",
+  "version": "1.0.0",
+  "description": "Test task for Magetic for the position of Front-End Developer",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery-slim": "^3.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}

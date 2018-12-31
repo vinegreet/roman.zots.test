@@ -1,0 +1,116 @@
+html {
+  height: 100%;
+  font-size: calc(0.8vh + 0.5vw);
+  box-sizing: border-box; }
+
+* {
+  box-sizing: inherit; }
+
+body {
+  background-color: #f4f4f4;
+  height: 100%;
+  overflow: hidden; }
+
+/*================================= SIDE MENU =================================*/
+.navMenu {
+  background-color: #374756;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -17.3rem;
+  transition: 0.5s;
+  cursor: pointer; }
+  .navMenu--open {
+    left: 0; }
+    .navMenu--open .navMenu__menuItems {
+      width: 100%; }
+
+.navMenu__sandwich {
+  background-color: #232d37;
+  height: 3.6rem; }
+
+.navMenu__logo {
+  background-color: #fff;
+  height: 3.6rem;
+  padding: .6rem; }
+
+.navMenu__sandwichIcon {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  height: 2.4rem;
+  margin: .6rem; }
+
+.navMenu__menuItems {
+  list-style-type: none;
+  float: right;
+  width: 3.6rem;
+  transition: 0.5s; }
+
+.navMenu__menuItem {
+  width: 100%;
+  border-bottom: 0.1rem solid #232d37;
+  height: 3.6rem; }
+  .navMenu__menuItem:hover {
+    background-color: #232d37; }
+
+.navMenu__menuLink {
+  display: flex;
+  width: 100%;
+  height: 3.6rem;
+  justify-content: center;
+  align-items: center; }
+
+.navMenu__menuIcon {
+  height: 35%; }
+
+/*================================= SEARCH PANEL =================================*/
+.navTop {
+  display: flex;
+  height: 3.6rem;
+  padding: 0.5rem;
+  transition: 0.5s;
+  background-color: #fff;
+  box-shadow: 3px 3px 10px 6px #a5a4a4;
+  margin-bottom: 16px;
+  margin-left: 3.6rem; }
+  .navTop--squeezed {
+    margin-left: 21rem; }
+
+.navTop__search {
+  display: inherit;
+  height: 100%;
+  flex: 1; }
+
+.navTop__loupe {
+  height: calc(100% - 1rem);
+  margin: 0.5rem; }
+
+.navTop__input {
+  font-size: 1.5rem;
+  height: 100%;
+  flex: 1;
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  box-shadow: none;
+  outline: none; }
+
+/*================================= MAIN SECTION =================================*/
+.main {
+  height: 100%;
+  padding: 1.5rem 2.5rem;
+  transition: 0.5s;
+  margin-left: 3.6rem; }
+  .main--squeezed {
+    margin-left: 21rem; }
+
+.main__text {
+  width: 25vw;
+  font-family: sans-serif; }
+
+.main__title {
+  text-align: center;
+  font-size: 2rem; }
+
+.main__paragraph {
+  margin: 1rem 0; }
